@@ -1,0 +1,46 @@
+h2{
+    color:#87d4eb;
+    
+}
+.my-div {
+    background-color: #87d4eb;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    text-align: center;
+}
+ .button {
+            background-color: rgba(76, 172, 175, 0.84); 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 8px;
+            margin: 2px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:beige;
+}
+
+h1 {
+    font-family: 'Roboto', serif;
+}
+h3 {
+    text-align: center;
+}
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

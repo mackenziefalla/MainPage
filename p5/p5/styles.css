@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Colorful gradient background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Main Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);  /* Light, semi-transparent background */
+    border-radius: 15px;
+    padding: 40px 30px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5em;
+    color: #ff6347;  /* Fun red color */
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.6em;
+    color: #3b3b3b;  /* Slightly dark text for contrast */
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Project Links */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 12px 18px;
+    background-color: #ff6347;  /* Fun button color */
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #ff6347;
+    transform: scale(1.1);  /* Slight zoom effect on hover */
+}
+#click-count {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
